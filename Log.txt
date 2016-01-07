@@ -1,0 +1,633 @@
+0:システムの情報を出力します
+2:	ＤＸライブラリ Ver3.11f
+5:	論理プロセッサの数 : 4
+8:	ＯＳ  Windows7 ( Build 7601 Service Pack 1 )
+116:	ＣＰＵ動作速度：大体3.18GHz
+119:	ＭＭＸ命令を使用します
+124:	ＳＳＥ命令が使用可能です
+128:	ＳＳＥ２命令が使用可能です
+130:	ＣＰＵベンダ：GenuineIntel
+147:	ＣＰＵ名：Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+149:ＣＯＭの初期化... 成功しました
+179:メモリ総量:4034.14MB  空きメモリ領域:840.09MB 
+181:タイマーの精度を検査します
+183:精度結果 更新回数 マルチメディアタイマー：0  パフォーマンスカウンター：60
+185: パフォーマンスカウンターを使用します タイマー精度 : 3117.832000 KHz 
+192: ソフトの二重起動検査... 二重起動はされていませんでした
+198:ウインドウクラスを登録します... 登録に成功しました
+204:ウインドウモード起動用のウインドウを作成します
+257:ウインドウの作成に成功しました
+260:ウインドウを表示します
+273:ＩＭＥを無効にしました
+276:ウインドウスタイルをウインドウモード用に変更します... 完了
+298:DirectInput関係初期化処理
+334:	XInput DLL の読み込み中... 成功
+343:	DirectInput7 の取得中... 成功
+359:		引き続き初期化処理... 初期化成功
+397:	ジョイパッドの初期化... 
+406:	入力装置を見つけました
+408:		デバイスの登録名:JC-PS101U
+412:		デバイスの製品登録名:JC-PS101U
+416:	周期的エフェクトの作成に失敗しました。
+419:	ジョイパッドの追加は正常に終了しました
+421:	ジョイパッドの初期化は正常に終了しました
+423:	マウスデバイスの初期化... 初期化成功
+431:	キーボードデバイスの初期化... 初期化成功
+436:DirectInput 関連の初期化は正常に終了しました
+455:XAudio2 の初期化を行います
+459:	XAudio2 インターフェースの取得を行います....  成功 Ver2.7
+
+468:	引き続きインターフェースの初期化処理...  成功
+472:	X3DAudio.DLL の読み込み中... 成功
+570:		デバイス名：スピーカー (Realtek High Definition Audio)
+575:		チャンネル数:2
+592:		ビット精度:32bit
+595:		サンプリングレート:48000Hz
+598:XAudio2 の初期化は正常に終了しました
+603:DirectDraw オブジェクトの取得を行います....  成功
+642:引き続き初期化処理... 初期化に成功しました
+671:IDirect3D9Ex オブジェクトを取得します.... 成功
+678:IDirect3DDevice9Ex オブジェクトを取得します.... ハードウエア頂点演算を使用します
+974:成功
+977:Driver:nvd3dum.dll  Description:NVIDIA GeForce GT 640    
+979:画面のフォーマットは D3DFMT_X8R8G8B8 です
+981:16bit Zバッファフォーマットは D3DFMT_D16 です
+983:24bit Zバッファフォーマットは D3DFMT_D24X8 です
+987:32bit Zバッファフォーマットは D3DFMT_D24X8 です
+991:16bit カラーフォーマットは D3DFMT_R5G6B5 です
+993:32bit カラーフォーマットは D3DFMT_X8R8G8B8 です
+995:アルファ付き 16bit カラーフォーマットは D3DFMT_A4R4G4B4 です
+997:アルファ付き 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+999:アルファテスト用 16bit カラーフォーマットは D3DFMT_A1R5G5B5 です
+1003:アルファテスト用 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+1007:ＤＸＴ１テクスチャフォーマットはD3DFMT_DXT1 です
+1009:ＤＸＴ２テクスチャフォーマットはD3DFMT_DXT2 です
+1011:ＤＸＴ３テクスチャフォーマットはD3DFMT_DXT3 です
+1014:ＤＸＴ４テクスチャフォーマットはD3DFMT_DXT4 です
+1016:ＤＸＴ５テクスチャフォーマットはD3DFMT_DXT5 です
+1021:描画用 16bit カラーフォーマットは D3DFMT_R5G5B5 です
+1024:描画用 32bit カラーフォーマットは D3DFMT_X8R8G8B8 です
+1026:描画用アルファ付き 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+1028:描画用ABGR整数16ビット型カラーフォーマットは D3DFMT_A16B16G16R16 です
+1031:描画用ABGR浮動小数点16ビット型カラーフォーマットは D3DFMT_A16B16G16R16F です
+1033:描画用ABGR浮動小数点32ビット型カラーフォーマットは D3DFMT_A32B32G32R32F です
+1039:描画用１チャンネル整数8ビット型カラーフォーマットは D3DFMT_L8 です
+1041:描画用１チャンネル整数16ビット型カラーフォーマットは D3DFMT_L16 です
+1070:描画用１チャンネル浮動小数点16ビット型カラーフォーマットは D3DFMT_R16F です
+1072:描画用１チャンネル浮動小数点32ビット型カラーフォーマットは D3DFMT_R32F です
+1075:描画用２チャンネル整数8ビット型カラーフォーマットは D3DFMT_A8B8G8R8 です
+1077:描画用２チャンネル整数16ビット型カラーフォーマットは D3DFMT_G16R16 です
+1080:描画用２チャンネル浮動小数点16ビット型カラーフォーマットは D3DFMT_G16R16F です
+1084:描画用２チャンネル浮動小数点32ビット型カラーフォーマットは D3DFMT_G32R32F です
+1088:一度に描画できるプリミティブの最大数:16777215
+1090:対応している最大頂点インデックス:16777215
+1092:同時にレンダリングできるバッファの数:4
+1095:最大テクスチャサイズ　幅:16384 高さ:16384
+1098:テクスチャステージテンポラリレジスタ：使用可
+1102:減算合成のハードウェア対応：ネイティブ
+1105:ハードウェア頂点シェーダーバージョンコード：300
+1107:エミュレーション頂点シェーダーバージョンコード：エミュレーション無し
+1110:ピクセルシェーダーバージョンコード：300
+1122:バックバッファロック転送の時間:92nsec  一時的な描画可能バッファを使用した転送の時間:3021nsec
+1125:バックバッファロックを使用します
+1128:Ｚバッファを作成します.... 成功
+1190:プログラマブルシェーダーを使用します
+
+1234:フォントの初期化を行います
+1238:フォントの初期化は正常に終了しました
+1255:文字コードバッファの初期化を行います... 完了しました
+1267:画面モード変更処理を開始します
+1269:	フォントの初期化を行います
+1272:	フォントの初期化は正常に終了しました
+1281:	Direct3DDevice9 の解放 2
+1304:	Direct3D9 DLL の解放 1
+1316:	DirectDraw オブジェクトの取得を行います....  成功
+1321:	引き続き初期化処理... 初期化に成功しました
+1347:	IDirect3D9Ex オブジェクトを取得します.... 成功
+1354:	IDirect3DDevice9Ex オブジェクトを取得します.... ハードウエア頂点演算を使用します
+1640:	成功
+1646:	Driver:nvd3dum.dll  Description:NVIDIA GeForce GT 640    
+1649:	画面のフォーマットは D3DFMT_X8R8G8B8 です
+1651:	16bit Zバッファフォーマットは D3DFMT_D16 です
+1654:	24bit Zバッファフォーマットは D3DFMT_D24X8 です
+1656:	32bit Zバッファフォーマットは D3DFMT_D24X8 です
+1660:	16bit カラーフォーマットは D3DFMT_R5G6B5 です
+1663:	32bit カラーフォーマットは D3DFMT_X8R8G8B8 です
+1665:	アルファ付き 16bit カラーフォーマットは D3DFMT_A4R4G4B4 です
+1668:	アルファ付き 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+1670:	アルファテスト用 16bit カラーフォーマットは D3DFMT_A1R5G5B5 です
+1672:	アルファテスト用 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+1679:	ＤＸＴ１テクスチャフォーマットはD3DFMT_DXT1 です
+1682:	ＤＸＴ２テクスチャフォーマットはD3DFMT_DXT2 です
+1684:	ＤＸＴ３テクスチャフォーマットはD3DFMT_DXT3 です
+1687:	ＤＸＴ４テクスチャフォーマットはD3DFMT_DXT4 です
+1689:	ＤＸＴ５テクスチャフォーマットはD3DFMT_DXT5 です
+1695:	描画用 16bit カラーフォーマットは D3DFMT_R5G5B5 です
+1698:	描画用 32bit カラーフォーマットは D3DFMT_X8R8G8B8 です
+1701:	描画用アルファ付き 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+1703:	描画用ABGR整数16ビット型カラーフォーマットは D3DFMT_A16B16G16R16 です
+1707:	描画用ABGR浮動小数点16ビット型カラーフォーマットは D3DFMT_A16B16G16R16F です
+1712:	描画用ABGR浮動小数点32ビット型カラーフォーマットは D3DFMT_A32B32G32R32F です
+1715:	描画用１チャンネル整数8ビット型カラーフォーマットは D3DFMT_L8 です
+1718:	描画用１チャンネル整数16ビット型カラーフォーマットは D3DFMT_L16 です
+1720:	描画用１チャンネル浮動小数点16ビット型カラーフォーマットは D3DFMT_R16F です
+1727:	描画用１チャンネル浮動小数点32ビット型カラーフォーマットは D3DFMT_R32F です
+1730:	描画用２チャンネル整数8ビット型カラーフォーマットは D3DFMT_A8B8G8R8 です
+1733:	描画用２チャンネル整数16ビット型カラーフォーマットは D3DFMT_G16R16 です
+1735:	描画用２チャンネル浮動小数点16ビット型カラーフォーマットは D3DFMT_G16R16F です
+1738:	描画用２チャンネル浮動小数点32ビット型カラーフォーマットは D3DFMT_G32R32F です
+1743:	一度に描画できるプリミティブの最大数:16777215
+1745:	対応している最大頂点インデックス:16777215
+1748:	同時にレンダリングできるバッファの数:4
+1750:	最大テクスチャサイズ　幅:16384 高さ:16384
+1754:	テクスチャステージテンポラリレジスタ：使用可
+1759:	減算合成のハードウェア対応：ネイティブ
+1762:	ハードウェア頂点シェーダーバージョンコード：300
+1765:	エミュレーション頂点シェーダーバージョンコード：エミュレーション無し
+1768:	ピクセルシェーダーバージョンコード：300
+1783:	バックバッファロック転送の時間:85nsec  一時的な描画可能バッファを使用した転送の時間:776nsec
+1788:	バックバッファロックを使用します
+1792:	Ｚバッファを作成します.... 成功
+1854:	プログラマブルシェーダーを使用します
+
+1898:	フォントの初期化を行います
+1905:	フォントの初期化は正常に終了しました
+1912:	ウインドウスタイルをウインドウモード用に変更します... 完了
+1920:画面モード変更処理は正常に終了しました
+2050:モデルファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\AWB-03Vt_v100.pmx が読み込めませんでした
+2332:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2336:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2341:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2345:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2364:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2368:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2371:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2375:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2391:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2396:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2401:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2404:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2422:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2426:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2431:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2435:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2451:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2455:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2458:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2464:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2480:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2483:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2486:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2490:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2509:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2513:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2517:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2520:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2536:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2543:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2546:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2550:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2567:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2572:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2577:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2580:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2595:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2599:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2603:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2609:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2625:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2629:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2632:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2639:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2655:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2659:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2662:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2665:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2684:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2688:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2692:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2695:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2711:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2716:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2721:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2725:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2742:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2747:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2753:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2756:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2771:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2776:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2780:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2785:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2800:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2804:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2807:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2812:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2828:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2833:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2836:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2840:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2857:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2864:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2867:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2871:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2887:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2891:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2896:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2899:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2912:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2916:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2919:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2923:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2939:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2943:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2947:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2950:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2966:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2969:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2975:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+2978:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+2992:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+2995:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+2998:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3002:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3018:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3024:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3027:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3030:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3045:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3048:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3054:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3058:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3073:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3076:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3080:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3084:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3100:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3104:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3107:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3111:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3126:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3130:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3136:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3139:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3154:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3158:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3162:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3168:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3181:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3186:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3189:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3193:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3212:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3217:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3220:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3223:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3238:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3243:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3248:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3251:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3269:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3273:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3279:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3283:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3299:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3303:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3309:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3314:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3332:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3335:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3341:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3345:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3359:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3362:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3365:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3369:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3386:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3392:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3395:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3399:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3416:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3421:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3425:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3428:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3444:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3447:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3452:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3456:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+3471:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+3474:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\鉄.jpg の読み込みに失敗しました
+
+3478:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\metalkai.sph の読み込みに失敗しました
+
+3481:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon03.bmp の読み込みに失敗しました
+
+4603:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\Active Frame\toon03.bmp の読み込みに失敗しました
+
+6791:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon01.bmp の読み込みに失敗しました
+
+6796:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Graph\toon10.bmp の読み込みに失敗しました
+
+6827:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6833:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6839:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6847:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6853:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6861:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6868:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6874:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6882:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6888:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6897:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6903:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6911:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6917:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6924:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6931:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6936:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6943:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6949:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6954:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6962:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6967:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6976:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6981:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6988:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6994:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+6999:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7007:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7012:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7017:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7026:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7031:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7038:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7044:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7049:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7057:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7062:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7070:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7075:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7080:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7087:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7092:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7098:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7105:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7111:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7118:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7124:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7129:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7137:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7142:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7148:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7155:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7160:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7167:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7222:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7229:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7235:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7242:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7250:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7256:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7265:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7270:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\roket.bmp の読み込みに失敗しました
+
+7279:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\toon01.bmp の読み込みに失敗しました
+
+7284:Load Texture Error : カラーチャンネル画像ファイル C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\roket.bmp の読み込みに失敗しました
+
+10798:mem alloc  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1784   ID:44290  addr:215ff948  data:<> ]
+10804:mem free  	size:         0(     0.000kb)  file:Main\DxFont.cpp             line:1784   ID:44290  addr:215ff948  data:<> ]
+14970:ウインドウを閉じようとしています
+14976:ウインドウが破棄されようとしています
+14979:ソフトを終了する準備が整いました
+15459:フォントの初期化を行います
+15463:フォントの初期化は正常に終了しました
+15520:Direct3DDevice9 の解放 2
+15905:Direct3D9 DLL の解放 1
+15913:DirectInput 関連の終了処理... 完了
+15989:
+15991:Alloc memory dump
+15998:	Total size:0(0.000kb)  Alloc num:0
+16001:

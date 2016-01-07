@@ -1,0 +1,67 @@
+﻿2015/06/29 0:27:22 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\Zemi_Game\Zemi_Game.vcxproj" (build ターゲット)。
+     1>PrepareForBuild:
+         ディレクトリ "C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\Release\" を作成しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Zemi_Game.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Character.cpp Clear.cpp Enemy.cpp Item.cpp main.cpp Menu.cpp Update.cpp
+         Character.cpp
+     1>Character.cpp(64): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
+     1>Character.cpp(72): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>Character.cpp(80): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>Character.cpp(88): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
+     1>Character.cpp(110): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(110): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(174): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(176): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(180): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(208): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(210): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(214): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(218): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(257): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(259): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(263): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(268): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Character.cpp(273): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         Clear.cpp
+         Enemy.cpp
+     1>Enemy.cpp(139): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Enemy.cpp(140): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Enemy.cpp(172): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Enemy.cpp(176): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Enemy.cpp(179): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>Enemy.cpp(180): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
+     1>Enemy.cpp(183): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
+     1>Enemy.cpp(184): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
+     1>Enemy.cpp(188): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         Item.cpp
+         main.cpp
+     1>main.cpp(102): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>main.cpp(151): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>main.cpp(234): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>main.cpp(234): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         Menu.cpp
+         Update.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\Release\Zemi_Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\tuis\Downloads\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /LIBPATH:"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Zemi_Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\Release\Zemi_Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\Release\Zemi_Game.lib" /MACHINE:X86 Release\Character.obj
+         Release\Clear.obj
+         Release\Enemy.obj
+         Release\Item.obj
+         Release\main.obj
+         Release\Menu.obj
+         Release\Update.obj
+         コード生成しています。
+         コード生成が終了しました。
+         Zemi_Game.vcxproj -> C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\Release\Zemi_Game.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\Release\Zemi_Game.exe;#1" /manifest Release\Zemi_Game.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\Zemi_Game.unsuccessfulbuild" を削除しています。
+         "Release\Zemi_Game.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\Zemi_Game\Zemi_Game.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:11.44
