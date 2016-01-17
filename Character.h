@@ -46,6 +46,8 @@ public:
 	struct P_Shot shot[SNUM];
 	struct anim boost;
 	struct anim boost2;
+
+	int muteki;
 private:
 	float x, y, z;
 
@@ -57,7 +59,7 @@ private:
 	int life;
 	int power;
 	int DeathTimer;
-
+	
 	//チャージ用の変数
 	float cx, cy, cz;
 	int cflag, ctimer;

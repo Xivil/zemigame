@@ -1,6 +1,10 @@
 #include "HeaderInclude.h"
 
-
+namespace{
+	int damage_sound;
+	int damaged_timer;
+	bool damaged_flag;
+}
 Character::Character(float a, float b, float c, float X, float Y, float Z, int graph){
 	x = a;
 	y = b;
@@ -17,6 +21,10 @@ Character::Character(float a, float b, float c, float X, float Y, float Z, int g
 		shot[i].flag = 0;
 		shot[i].graph = MV1LoadModel("aaaa.mqo");
 	}
+	damage_sound = LoadSoundMem("sound/nc84550.mp3");
+	ChangeVolumeSoundMem(100, damage_sound);
+	damaged_timer = 0;
+	damaged_flag = false;
 }
 void Character::Init(float a, float b, float c, float X, float Y, float Z, int graph){
 	x = a;
@@ -56,7 +64,7 @@ void Character::Init(float a, float b, float c, float X, float Y, float Z, int g
 	MV1SetScale(boost2.graph, VGet(0.11f, 0.11f, 0.11f));
 
 	shotsound = LoadSoundMem( "sound/shoot1.mp3" );
-	 ChangeVolumeSoundMem( 140, shotsound ) ;
+	 ChangeVolumeSoundMem( 100, shotsound ) ;
 
 }
 void Character::Move(){
@@ -101,6 +109,24 @@ void Character::Move(){
 		if(RotateZ2 < 360){
 			RotateZ2 -= 36;
 		}
+		muteki = 1;
+	}
+	else{
+		muteki = 0;
+	}
+	if (KeyGet(KEY_INPUT_Z) || KeyGet(KEY_INPUT_X)){
+		muteki = 1;
+	}
+	else{
+		muteki = 0;
+	}
+	if(damaged_flag == true){
+		damaged_timer++;
+	}
+	if (damaged_timer > 60){
+		damaged_flag = false;
+		damaged_timer = 0;
+
 	}
 }
 
@@ -109,7 +135,7 @@ void Character::Draw(){
 	MV1SetPosition( graph, VGet(x, y + 1, z ) ) ;
 	MV1SetPosition( targetwindow, VGet( x +  -10 * tan(RotateZ * PI/   180), (y + 10 * tan(RotateX * PI/ 180)), z + 10));
 	MV1SetRotationXYZ( graph, VGet( -RotateX * DX_PI_F / 180.0f, (RotateY +180) * DX_PI_F / 180.0f, (RotateZ+ RotateZ2 + 180) * DX_PI_F / 180.0f ));
-	
+	MV1SetOpacityRate(graph, !(damaged_timer % 2));
 	if(life >= 0){
 		//MV1DrawModel( targetwindow );
 		MV1DrawModel( boost.graph );
@@ -127,7 +153,6 @@ void Character::Draw(){
 	MV1SetAttachAnimTime( boost2.graph, boost2.attach, boost2.playtime );
 	MV1SetPosition( boost2.graph, VGet( x, y, z ));
 	MV1SetRotationXYZ( boost2.graph, VGet( -RotateX * DX_PI_F / 180.0f, (RotateY +180) * DX_PI_F / 180.0f, (RotateZ+ RotateZ2 + 180) * DX_PI_F / 180.0f ));
-
 }
 
 void Character::LifeDraw(){
@@ -158,7 +183,7 @@ void Character::LifeDraw(){
 
 void Character::Shot(){
 	if(KeyGet(KEY_INPUT_U)) power = 2;
-	if(KeyGet(KEY_INPUT_SPACE) % 5 == 1 && power == 0 ){
+	if(KeyGet(KEY_INPUT_SPACE) % 5 == 1 && muteki == 0){
 		PlaySoundMem( shotsound , DX_PLAYTYPE_BACK ) ;
 
 		for(int i = 0; i < SNUM; i++){
@@ -362,7 +387,7 @@ void Character::Death(){
 		if(DeathTimer == 0) gamestate = 2;
 	}
 	if( life == 0){
-		graph = MV1LoadModel("”š”­Áx1.pmd");
+		graph = MV1LoadModel("Graph/Á‚¹‚é”š”­/”š”­Áx1.pmd");
 		life --;
 	}
 }
@@ -383,7 +408,17 @@ void Character::All(){
 
 int Character::GetLife(){ return life; }
 int Character::GetPower(){ return power; }
-void Character::SetLife( int life){ this->life = life; }
+void Character::SetLife( int life){ 
+	if(damaged_flag == false && muteki == 0)
+	{
+		PlaySoundMem(damage_sound, DX_PLAYTYPE_BACK);
+		this->life = life;
+		damaged_flag = true;
+		
+	}
+	
+	
+}
 
 float Character::GetX(){return x;}
 float Character::GetY(){return y;}

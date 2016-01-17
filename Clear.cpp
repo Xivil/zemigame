@@ -1,7 +1,12 @@
 #include "HeaderInclude.h"
-
+namespace {
+	int clear_graph = 0;
+}
 void Clear(){
-	int Cr = GetColor( 200 , 200 , 30 ) ;
-
-	DrawString( 1024/2 , 768/2 - 30 , "Game Clear" , Cr );
+	if (clear_graph == 0)
+	{
+		clear_graph = LoadGraph("Graph/clear.png");
+	}
+	DrawGraph(0, 0, clear_graph, TRUE);
+	ScoreRankDraw();
 }
