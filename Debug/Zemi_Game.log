@@ -1,57 +1,14 @@
-﻿2016/01/17 18:26:46 にビルドを開始しました。
+﻿2016/01/21 23:23:43 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Zemi_Game.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Character.cpp Clear.cpp Enemy.cpp Item.cpp Menu.cpp Update.cpp main.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Menu.cpp
          Menu.cpp
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\menu.cpp(128): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' の宣言を確認してください。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\menu.cpp(138): warning C4244: '引数' : 'double' から 'char' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\menu.cpp(123): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
      1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\menu.cpp(160): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' の宣言を確認してください。
-         Clear.cpp
-         コードを生成中...
-         コンパイル中...
-         main.cpp
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\main.cpp(143): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\main.cpp(211): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\main.cpp(320): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\main.cpp(320): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
-         Update.cpp
-         Item.cpp
-         Enemy.cpp
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(155): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(156): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(188): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(192): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(195): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(196): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(199): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(200): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(204): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(242): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(292): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\enemy.cpp(301): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
-         Character.cpp
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(72): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(80): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(88): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(96): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(136): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(136): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(200): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(202): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(206): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(234): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(236): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(240): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(244): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(283): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(285): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(289): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(294): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\character.cpp(299): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
-         コードを生成中...
+     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\menu.cpp(170): warning C4244: '引数' : 'double' から 'char' への変換です。データが失われる可能性があります。
+     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\menu.cpp(155): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+     1>c:\users\kouhei\desktop\提出用ゲームフォルダ\zemi_game\zemi_game\menu.cpp(192): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' の宣言を確認してください。
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Debug\Zemi_Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\tuis\Downloads\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /LIBPATH:"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Zemi_Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Debug\Zemi_Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Debug\Zemi_Game.lib" /MACHINE:X86 Debug\Zemi_Game.exe.embed.manifest.res
          Debug\Character.obj
@@ -69,4 +26,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:11.07
+経過時間 00:00:03.32

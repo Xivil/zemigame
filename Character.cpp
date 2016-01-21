@@ -49,7 +49,7 @@ void Character::Init(float a, float b, float c, float X, float Y, float Z, int g
 		shot[i].playtime = 0;
 		MV1SetScale(shot[i].graph, VGet(0.3f, 0.3f, 0.8f));
 	}
-
+	
 	//ブーストの初期化
 	boost.graph = MV1LoadModel("boost.pmd");
 	boost.attach = MV1AttachAnim(boost.graph, 1, -1, FALSE ) ;
@@ -68,6 +68,62 @@ void Character::Init(float a, float b, float c, float X, float Y, float Z, int g
 
 }
 void Character::Move(){
+	input = GetJoypadInputState(DX_INPUT_KEY_PAD1);
+	GetJoypadAnalogInput(&input_x, &input_y, DX_INPUT_KEY_PAD1);
+
+
+	if (input & PAD_INPUT_LEFT) {
+		x -= 0.3;
+		if (RotateZ < 30.0f){
+			RotateZ += 1.0f;
+		}
+	}
+	if (RotateZ > 0 && RotateZ <= 180.0f && input & PAD_INPUT_LEFT == 0) RotateZ -= 0.5f;
+
+	if (input & PAD_INPUT_RIGHT) {
+		x += 0.3;
+		if (RotateZ > -30.0f){
+			RotateZ -= 1.0f;
+		}
+	}
+		
+		if (RotateZ < 0 && RotateZ >= -180.0f && input & PAD_INPUT_RIGHT == 0) RotateZ += 0.5f;
+
+		if (input & PAD_INPUT_UP) {
+			y += 0.3;
+			if (RotateX < 45.0f){
+				RotateX += 1.0f;
+			}
+		}
+		if (RotateX >0 && RotateX <= 180.0f && input & PAD_INPUT_UP == 0) RotateX -= 0.5f;
+
+		if (input & PAD_INPUT_DOWN) {
+			y -= 0.3;
+			if (RotateX > -45.0f){
+				RotateX -= 1.0f;
+			}
+		}
+		if (RotateX < 0 && RotateX >= -180.0f && input & PAD_INPUT_DOWN == 0) RotateX += 0.5f;
+		/*if (input & PAD_INPUT_2){
+			RotateZ2 += 36;
+		}
+		if (input & PAD_INPUT_2  && input & PAD_INPUT_3 ){
+			RotateZ2 = 0;
+		}
+		if (input & PAD_INPUT_3){
+			if (RotateZ2 < 360){
+				RotateZ2 -= 36;
+			}
+			muteki = 1;
+		}
+		else{
+			muteki = 0;
+		}
+		if (input & PAD_INPUT_2 || input & PAD_INPUT_3){
+			muteki = 1;
+		}*/
+	
+	
 	if(KeyGet(KEY_INPUT_LEFT)) {
 		x-=0.3;
 		if(RotateZ < 30.0f){
@@ -99,13 +155,26 @@ void Character::Move(){
 		}
 	}
 	if(RotateX < 0 && RotateX >= -180.0f && KeyGet(KEY_INPUT_DOWN) == 0) RotateX += 0.5f;
-	if(KeyGet(KEY_INPUT_Z)){
+	static unsigned int pad = 0;
+	if (input & PAD_INPUT_3) {
+		pad |= 1;
+	}
+	else{
+		pad &= ~1;
+	}
+	if (input & PAD_INPUT_2) {
+		pad |= 2;
+	}
+	else{
+		pad &= ~2;
+	}
+	if (KeyGet(KEY_INPUT_Z) || pad == 1){
 			RotateZ2 += 36;
 	}
-	if(KeyGet(KEY_INPUT_Z) == 0 && KeyGet(KEY_INPUT_X) == 0){
+	if ((KeyGet(KEY_INPUT_Z) == 0 && KeyGet(KEY_INPUT_X) == 0) && pad == 0){
 		RotateZ2 = 0;
 	}
-	if(KeyGet(KEY_INPUT_X)){
+	if(KeyGet(KEY_INPUT_X) || pad == 2){
 		if(RotateZ2 < 360){
 			RotateZ2 -= 36;
 		}
@@ -114,7 +183,7 @@ void Character::Move(){
 	else{
 		muteki = 0;
 	}
-	if (KeyGet(KEY_INPUT_Z) || KeyGet(KEY_INPUT_X)){
+	if (KeyGet(KEY_INPUT_Z) || KeyGet(KEY_INPUT_X) || pad){
 		muteki = 1;
 	}
 	else{
@@ -153,6 +222,7 @@ void Character::Draw(){
 	MV1SetAttachAnimTime( boost2.graph, boost2.attach, boost2.playtime );
 	MV1SetPosition( boost2.graph, VGet( x, y, z ));
 	MV1SetRotationXYZ( boost2.graph, VGet( -RotateX * DX_PI_F / 180.0f, (RotateY +180) * DX_PI_F / 180.0f, (RotateZ+ RotateZ2 + 180) * DX_PI_F / 180.0f ));
+
 }
 
 void Character::LifeDraw(){
@@ -182,8 +252,15 @@ void Character::LifeDraw(){
 }
 
 void Character::Shot(){
+	static unsigned int pad_timer = 0;
 	if(KeyGet(KEY_INPUT_U)) power = 2;
-	if(KeyGet(KEY_INPUT_SPACE) % 5 == 1 && muteki == 0){
+	if (input & PAD_INPUT_1) {
+		pad_timer++;
+	}
+	else{
+		pad_timer = 0;
+	}
+	if (KeyGet(KEY_INPUT_SPACE) % 5 == 1 || pad_timer % 5 == 1  && muteki == 0){
 		PlaySoundMem( shotsound , DX_PLAYTYPE_BACK ) ;
 
 		for(int i = 0; i < SNUM; i++){

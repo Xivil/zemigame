@@ -1,9 +1,31 @@
-﻿2016/01/17 23:11:45 にビルドを開始しました。
+﻿2016/01/22 2:03:52 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Zemi_Game.vcxproj" (Build ターゲット)。
-     1>Link:
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(145): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>main.cpp(213): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>main.cpp(24): warning C4101: 'input_x' : ローカル変数は 1 度も使われていません。
+     1>main.cpp(24): warning C4101: 'input_y' : ローカル変数は 1 度も使われていません。
+     1>main.cpp(24): warning C4101: 'input' : ローカル変数は 1 度も使われていません。
+     1>main.cpp(51): warning C4101: 'input' : ローカル変数は 1 度も使われていません。
+     1>main.cpp(325): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>main.cpp(325): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Release\Zemi_Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\tuis\Downloads\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /LIBPATH:"C:\Users\kouhei\Documents\Visual Studio 2010\Projects\Zemi_Game\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Zemi_Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Release\Zemi_Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Release\Zemi_Game.lib" /MACHINE:X86 Release\Character.obj
+         Release\Clear.obj
+         Release\Enemy.obj
+         Release\Item.obj
+         Release\main.obj
+         Release\Menu.obj
+         Release\Update.obj
+         コード生成しています。
+         コード生成が終了しました。
          Zemi_Game.vcxproj -> C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Release\Zemi_Game.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Release\Zemi_Game.exe;#1" /manifest Release\Zemi_Game.exe.intermediate.manifest
      1>プロジェクト "C:\Users\kouhei\Desktop\提出用ゲームフォルダ\Zemi_Game\Zemi_Game\Zemi_Game.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.04
+経過時間 00:00:02.24

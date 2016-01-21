@@ -7,4 +7,5 @@ void KeyInput();
 
 int KeyGet( int KeyCode );
 
+
 #endif

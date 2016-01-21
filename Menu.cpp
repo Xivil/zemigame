@@ -19,6 +19,9 @@ namespace {
 	int gameover_graph = 0;
 	int gameover_music = 0;
 	int a  = - 1;
+	int input = 0;
+	int InputX = 0, InputY = 0;
+	int pad[3] = {0, 0, 0};
 }
 
 void Menu(){
@@ -61,7 +64,28 @@ void Menu(){
 			}
 		}
 	}
-	if(KeyGet(KEY_INPUT_SPACE) == 1){
+
+	input = GetJoypadInputState(DX_INPUT_KEY_PAD1);
+	GetJoypadAnalogInput(&InputX, &InputY, DX_INPUT_KEY_PAD1);
+	if (input & PAD_INPUT_LEFT || InputX){
+		pad[0] ++;
+	}
+	else{
+		pad[0] = 0;
+	}
+	if (input & PAD_INPUT_RIGHT){
+		pad[1] ++;
+	}
+	else{
+		pad[1] = 0;
+	}
+	if (input & PAD_INPUT_1 || input & PAD_INPUT_2 || input & PAD_INPUT_3 || input & PAD_INPUT_4){
+		pad[2] ++;
+	}
+	else{
+		pad[2] = 0;
+	}
+	if (KeyGet(KEY_INPUT_SPACE) == 1 || pad[2] == 1){
 		if (flag % 2 == 0){
 			gamestate = -1;
 			DrawString(650, 550, "Now Loading...", GetColor(255, 255, 255), GetColor(167, 22, 45));
@@ -73,7 +97,7 @@ void Menu(){
 		}
 		graph = 0;
 	}
-	if (KeyGet(KEY_INPUT_LEFT) == 1 || KeyGet(KEY_INPUT_RIGHT) == 1){
+	if (KeyGet(KEY_INPUT_LEFT) == 1 || KeyGet(KEY_INPUT_RIGHT) == 1 || pad[0] == 1 || pad[1] == 1){
 		flag++;
 		PlaySoundMem(button1, DX_PLAYTYPE_BACK);
 	}
@@ -99,7 +123,15 @@ void Description(){
 	}
 	
 	DrawGraph(0, 0, graph, TRUE);
-	if (KeyGet(KEY_INPUT_SPACE) == 1){
+
+	input = GetJoypadInputState(DX_INPUT_KEY_PAD1);
+	if (input & PAD_INPUT_1 || input & PAD_INPUT_2 || input & PAD_INPUT_3 || input & PAD_INPUT_4){
+		pad[2] ++;
+	}
+	else{
+		pad[2] = 0;
+	}
+	if (KeyGet(KEY_INPUT_SPACE) == 1 || pad[2] == 1){
 		gamestate = 0;
 		graph = 0;
 	}

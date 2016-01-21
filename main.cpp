@@ -21,6 +21,7 @@ int gamestate = 0;
 int score = 0;
 int WINAPI WinMain(HINSTANCE,HINSTANCE,LPSTR,int){
     ChangeWindowMode(TRUE), DxLib_Init(), SetDrawScreen( DX_SCREEN_BACK ), SetGraphMode( 800 , 600 , 32 ) ;
+	int input, input_x, input_y;
 	//ステージに関する事柄
 	int StageGraph = MV1LoadModel("Graph/球体星図ｖ2.mqo");
 	int ItemModel = MV1LoadModel("Graph/power.x");
@@ -47,6 +48,7 @@ int WINAPI WinMain(HINSTANCE,HINSTANCE,LPSTR,int){
 	
 	//メインループ
     while(!ScreenFlip()&&!ProcessMessage()&&!ClearDrawScreen() && !KeyGet(KEY_INPUT_ESCAPE)){
+		int input;
 		KeyInput();
 		if (KeyGet(KEY_INPUT_T)) gamestate = 0;
 		switch(gamestate){
@@ -256,6 +258,9 @@ int WINAPI WinMain(HINSTANCE,HINSTANCE,LPSTR,int){
 void SetCamera(Character &c, Boss &b){
 	if (b.GetFlag() & APPEAR && timer >= BOSS_TIMER){
 		SetCameraPositionAndTarget_UpVecY(VGet(30, 0, 0), VGet(b.GetX(), b.GetY(), b.GetZ()));
+	}
+	else if (b.GetFlag() & APPROACH && timer >= BOSS_TIMER){
+		SetCameraPositionAndTarget_UpVecY(VGet(0, 12, -15 + c.GetZ()), VGet(b.GetX(), b.GetY() + 5, b.GetZ()));
 	}
 	else if(c.GetLife() >= 0){
 		SetCameraPositionAndTarget_UpVecY( VGet( 0, 12 , -15 + c.GetZ() ), VGet( c.GetRotateZ() / -7, 12.0f + c.GetRotateX() / 7, 30 ) ) ;

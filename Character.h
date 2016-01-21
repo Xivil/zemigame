@@ -48,6 +48,7 @@ public:
 	struct anim boost2;
 
 	int muteki;
+	int input, input_x, input_y;
 private:
 	float x, y, z;
 
